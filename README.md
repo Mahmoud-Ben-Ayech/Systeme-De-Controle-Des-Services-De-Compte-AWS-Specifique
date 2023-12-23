@@ -8,7 +8,7 @@ As a first step of running you have to launch recuperation  script by this comma
 
 ---
 
-And you must set an environment variable before launching the backend server which is : 
+And you must set some environment variables before launching the backend server which is : 
 
 ***SENDER_EMAIL*** , ***APP_PASSWORD***  => Information of mail to send the notification of the creation account of users.
 
@@ -27,6 +27,14 @@ And you must set an environment variable before launching the backend server whi
 Next, you need to launch backend  side ***Flask Framework*** by this command "python3 run.py" .
 
 Finally you must launch Frontend Side ***Streamlit Framework*** by this command  "streamlit run Home.py"  
+
+# Application Interfaces 
+
+After the running of the project, this interface will be shown to allow you to login with SUPER_EMAIL and SUPER_PASSWORD that you passed as environment variables :
+
+![login3](https://github.com/Mahmoud-Ben-Ayech/Systeme-De-Controle-Des-Services-De-Compte-AWS-Specifique/assets/104568399/af223c87-e4ef-4e1f-9bf2-000def71a5cc)
+
+
 
 
                                   
