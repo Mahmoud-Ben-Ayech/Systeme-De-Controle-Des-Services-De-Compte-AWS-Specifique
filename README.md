@@ -8,11 +8,19 @@ As a first step of running you have to launch recuperation  script by this comma
 
 ---
 
-And you must set a enviremental variable before launching the backend server which is : ***SENDER_EMAIL*** , ***APP_PASSWORD***  => Information of mail to send the notification of creation account of users .
+And you must set a enviremental variable before launching the backend server which is : 
 
-***NAME_DATABASE*** , ***TEMPS_DEBUT*** , ***TEMPS_FIN*** , ***JOURS_TRAVAIL*** ,***TAILLE_BUCKET_MAX*** => informations needs for time of work of Campany . (exple :  export TEMPS_DEBUT=08:00:00)
+***SENDER_EMAIL*** , ***APP_PASSWORD***  => Information of mail to send the notification of creation account of users .
 
-***SUPER_EMAIL*** , ***SUPER_PASSWORD***  => Informations of mail of ***superuser*** of application who's permited to create users and admins for app 
+***NAME_DATABASE*** , ***TEMPS_DEBUT*** , ***TEMPS_FIN*** , ***JOURS_TRAVAIL*** ,***TAILLE_BUCKET_MAX*** => informations needs for time of work of Campany . 
+
+***SUPER_EMAIL*** , ***SUPER_PASSWORD***  => Informations of mail of ***superuser*** of application who's permited to create users and admins for app .
+
+## Example of exportation variable :
+
+ >> export TEMPS_DEBUT=08:00:00
+
+ >> export JOURS_TRAVAIL=Monday,Tuesday,thursday,wednsday,friday
 
 ---
 
